@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    table{
+        background: lemonchiffon;
+    }
+    th{
+        background: aquamarine;
+        color: blue;
+    }
+    select{
+        width: 170px;
+    }
+</style>
+<form>
+    <table border="1">
+        <tr>
+            <th colspan="2">Registration</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>
+                <input type="text" placeholder="type here">
+            </td>
+        </tr>
+        <tr>
+            <td>Date of birth</td>
+            <td>
+                <input type="text" placeholder="type here">
+            </td>
+            <tr>
+        <td>Gender</td>
+        <td>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+        </td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td>
+                <input type="text" placeholder="type here">
+            </td>
+        </tr>
+        <tr>
+            <td>Class Options</td>
+            <td>
+                <select>
+                    <option value="Choose class">-Choose Class-</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>
+                <input type="email" placeholder="type here">
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="vertical-align: top;">Contact</td>
+            <td>
+                <input type="text" placeholder="type here">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" name="btRegister" Value="Register">
+                <input type="reset" name="resetResetForm" Value="Reset Form">
+            </td>
+        </tr>
+    </table>
+
+</form>
+
+
+</body>
+</html>
