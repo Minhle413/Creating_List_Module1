@@ -11,6 +11,15 @@
             height:500px;
             length:1000px;
         }
+        .A{
+            text-align: center;
+        }
+        #M tr:nth-child(even){
+            background: lightgray;
+        }
+        #M td:nth-child(1){
+            background: white;
+        }
     </style>
 </head>
 <body>
@@ -43,23 +52,97 @@
         <td colspan="4">What would you pay for the new product?</td>
     </tr>
     <tr>
-        <td rowspan="2" style="vertical-align: bottom;">$</td>
-        <td><input type="text" size="15">
+        <td></td>
+        <td><input type="text" size="15"> .
+        </td>
         <td>
-            .<input type="text" size="5">
+            <input type="text" size="10">
         </td>
     </tr>
     <tr>
-    <td>
-        Dollars
-    </td>
+        <td>$</td>
+    <td>Dollars</td>
     <td> Cent </td>
     </tr>
 
 
 </table>
 <h3>What features would you like to see in the new product?</h3>
-<textarea style="height:100px; length:1000px"></textarea>
+<textarea style="height:100px; width:500px"></textarea>
+<br>
+<h3>Please rate your level of agreement with the following statements.</h3>
+<table id="M" border="1">
+    <tr>
+        <th></th>
+        <th>Strongly Disagree</th>
+        <th>Disagree</th>
+        <th>Agree</th>
+        <th>Strongly Agree</th>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;" rowspan="2">Our products are priced fairly</td>
+        <td class="A">
+            <input type="radio" name="1" value="1">
+        </td>
+        <td class="A">
+            <input type="radio" name="1" value="2">
+        </td>
+        <td class="A">
+            <input type="radio" name="1" value="3">
+        </td>
+        <td class="A">
+            <input type="radio" name="1" value="4">
+        </td>
+    </tr>
+    <tr>
+        <td class="A">1 </td>
+        <td class="A">2</td>
+        <td class="A">3</td>
+        <td class="A">4</td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;" rowspan="2">Our products are high quality</td>
+        <td class="A">
+            <input type="radio" name="1" value="1">
+        </td>
+        <td class="A">
+            <input type="radio" name="1" value="2">
+        </td>
+        <td class="A">
+            <input type="radio" name="1" value="3">
+        </td>
+        <td class="A">
+            <input type="radio" name="1" value="4">
+        </td>
+    </tr>
+    <tr>
+        <td class="A">1</td>
+        <td class="A">2</td>
+        <td class="A">3</td>
+        <td class="A">4</td>
+    </tr>
+    <tr>
+        <td style="vertical-align: top;" rowspan="2">You would recommend our products to a friend or coworker</td>
+        <td class="A">
+            <input type="radio" name="1" value="1">
+        </td>
+        <td class="A">
+            <input type="radio" name="1" value="2">
+        </td>
+        <td class="A">
+            <input type="radio" name="1" value="3">
+        </td>
+        <td class="A">
+            <input type="radio" name="1" value="4">
+        </td>
+    </tr>
+    <tr>
+        <td class="A">1</td>
+        <td class="A">2</td>
+        <td class="A">3</td>
+        <td class="A">4</td>
+    </tr>
+</table>
 
 </body>
 </html>
